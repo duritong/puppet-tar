@@ -11,6 +11,6 @@ class tar::base {
     package{'tar': ensure => present, }
 }
 
-class screen::openbsd {
+class tar::openbsd {
     openbsd::special_package{'gtar-1.19': }
 }
