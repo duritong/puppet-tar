@@ -1,3 +1,3 @@
 class tar::base {
-    package{'tar': ensure => present, }
+  package{'tar': ensure => present, }
 }

@@ -1,5 +1,5 @@
 class tar::openbsd {
-  case $operatingsystemrelease {
+  case $::operatingsystemrelease {
     '4.3': { openbsd::special_package{'gtar-1.19': } }
     default: { openbsd::special_package{'gtar-1.25p0': } }
   }
